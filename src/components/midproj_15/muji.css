@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #FFFFFF;
+
+  }
+  
+  .primary-title {
+	font-family: 'Raleway', Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 1.75em;
+	color: #FFFFFF; /*red green blue*/
+	background-color: #800015;
+	padding: 1rem;
+}
+.secondary-title {
+    border-left-style:solid; 
+    border-top-width:medium;
+    padding: 20px;
+    border-color: #800015;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-weight:bold;
+  }
+
+  .qq{
+    color: rgba(129, 126, 126, 0.822);
+	font-size: 20px;
+    font-weight:bold;
+  }
+
+  .q1{
+    font-size: 14px;
+    font-family:Microsoft JhengHei;
+  }
+
+  .redline{
+    border-bottom-style:solid; 
+    border-width:2px;
+    border-color: #8d1b2ee7;
+  }
+    .home {
+        color: rgb(17, 16, 16);
+        font-size: 14px;
+        line-height: 1.5;
+        font-family: 'MUJIFont-Light', 'Helvetica', 'Lucida Grande',
+          'Microsoft JhengHei', sans-serif;   
+    }
+
+  
+  a {
+    color: #262626;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  /* Nav */
+  .main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 13px;
+  }
+  
+  .main-nav .logo {
+    width: 110px;
+  }
+  
+  .main-nav ul {
+    display: flex;
+  }
+  
+  .main-nav ul li {
+    padding: 0 10px;
+  }
+  
+  .main-nav ul li a {
+    padding-bottom: 2px;
+  }
+  
+  .main-nav ul li a:hover {
+    border-bottom: 2px solid #262626;
+  }
+  
+  .main-nav ul.main-menu {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .menu-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    z-index: 2;
+    display: none;
+  }
+  
+  .btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #fff;
+    font-size: 15px;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  .dark {
+    color: #fff;
+  }
+  
+  .dark .btn {
+    background: #f4f4f4;
+    color: #333;
+  }
+  
