@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import './ProductsPage_15.scss';
-import Product_15 from '../components/Product_15';
+import Product_15 from '../../components/crown_15/Product_15';
 
 const ProductsPage_15 = () => {
   const [products, setProducts] = useState([]);
@@ -10,8 +10,8 @@ const ProductsPage_15 = () => {
   console.log('category', category);
   useEffect(() => {
     const fetchProducts = async () => {
-      const HEROKU_URL = `https://crown1101.herokuapp.com/api_15/shop_15`;
-      const LOCAL_URL = `/api_15/shop_15`;
+      const HEROKU_URL = `https://crown1101.herokuapp.com/api_15/shop_15/${category}`;
+      const LOCAL_URL = `/api_15/shop_15/${category}`;
       const { data } = await axios.get(HEROKU_URL);
       console.log('/api_15/shop_15/:category', data);
       setProducts(data);

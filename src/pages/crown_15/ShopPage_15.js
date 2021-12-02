@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './ShopPage_15.scss';
-import Product_15 from '../components/crown_15/Product_15';
+import Product_15 from '../../components/crown_15/Product_15';
 
 const ShopPage_15 = () => {
   const [products, setProducts] = useState([]);
